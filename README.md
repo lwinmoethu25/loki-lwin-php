@@ -45,23 +45,23 @@ MySql                                  = 127.0.0.1:3307
 ```
 <p align="center">
 <kbd>
-    <img src="https://github.com/lwinmoethu25/loki-lwin-js/blob/master/screenshot/docker_desktop.PNG" width="500">
+    <img src="https://github.com/lwinmoethu25/loki-lwin-php/blob/master/screenshot/docker_desktop.PNG" width="500">
 </kbd>
 <br>
 <kbd>
-    <img src="https://github.com/lwinmoethu25/loki-lwin-js/blob/master/screenshot/sign_up.PNG" width="500">
+    <img src="https://github.com/lwinmoethu25/loki-lwin-php/blob/master/screenshot/sign_up.PNG" width="500">
 </kbd>
 <br>
 <kbd>
-    <img src="https://github.com/lwinmoethu25/loki-lwin-js/blob/master/screenshot/home_page.PNG" width="500">
+    <img src="https://github.com/lwinmoethu25/loki-lwin-php/blob/master/screenshot/home_page.PNG" width="500">
 </kbd>
 <br>
 <kbd>
-    <img src="https://github.com/lwinmoethu25/loki-lwin-js/blob/master/screenshot/cart.PNG" width="500">
+    <img src="https://github.com/lwinmoethu25/loki-lwin-php/blob/master/screenshot/cart.PNG" width="500">
 </kbd>
 <br>
 <kbd>
-    <img src="https://github.com/lwinmoethu25/loki-lwin-js/blob/master/screenshot/db.PNG" width="500">
+    <img src="https://github.com/lwinmoethu25/loki-lwin-php/blob/master/screenshot/db.PNG" width="500">
 </kbd>
 <br>
 </p>
