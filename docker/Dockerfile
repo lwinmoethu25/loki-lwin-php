@@ -1,7 +1,7 @@
 FROM php:8.1.1-fpm
 
 # Copy composer.lock and composer.json
-COPY composer.lock composer.json /var/www/
+COPY composer.json /var/www/
 
 # Set working directory
 WORKDIR /var/www
@@ -42,6 +42,7 @@ RUN groupadd -g 1000 www
 RUN useradd -u 1000 -ms /bin/bash -g www www
 
 COPY .env.example .env
+
 # Copy existing application directory contents
 COPY . /var/www
 
@@ -51,8 +52,6 @@ COPY --chown=www:www . /var/www
 # Change current user to www
 USER www
 
-RUN composer update
-RUN php artisan key:generate
 # RUN php artisan migrate
 # RUN php artisan db:seed
 # RUN php artisan passport:install

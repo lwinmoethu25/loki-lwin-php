@@ -13,6 +13,14 @@ Access Laravel Container
 ```bash
 docker exec -it laravel /bin/bash
 ```
+Install Packages
+```bash
+composer install
+```
+Generate App Key
+```bash
+php artisan key:generate
+```
 Database Migration
 ```bash
 php artisan migrate
@@ -38,10 +46,10 @@ docker-compose down --rmi all
 Laravel                                = 127.0.0.1:8000
 ```
 ```bash
-PhpMyadmin                             = 127.0.0.1:9999
+PhpMyadmin                             = 127.0.0.1:7000
 ```
 ```bash
-MySql                                  = 127.0.0.1:3307
+MySql                                  = 127.0.0.1:3308
 ```
 <p align="center">
 <kbd>
