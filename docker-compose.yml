@@ -42,7 +42,7 @@ services:
     restart: always
     tty: true
     ports:
-      - "8000:80"
+      - "9000:80"
     volumes:
       - ./:/var/www
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
