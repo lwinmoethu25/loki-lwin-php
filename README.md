@@ -43,7 +43,7 @@ docker-compose down --rmi all
 
 ## Open
 ```bash
-Laravel                                = 127.0.0.1:8000
+Laravel                                = 127.0.0.1:9000
 ```
 ```bash
 PhpMyadmin                             = 127.0.0.1:7000
